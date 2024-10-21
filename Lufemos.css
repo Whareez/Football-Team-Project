@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-image: url("./pexels-pixabay-39362.jpg");
+    background-size: cover;
+    object-fit: fill; 
+     background-position:center ;
+     /* height: 100%;
+     width: 100%; */
+}
+
+.text{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.navbar a{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.name h2{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.submit button a {
+    padding: 10px 6px;
+}
+
+.submit {
+    margin-left: 20px !important;
+}
+
+.submit button {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        border: 2px solid gold;
+        background-color : gold;
+    
+}
+
+.signIN a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.right .text{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.logo img{
+    height:360px;
+    width: 350px;
+    margin-bottom:  100px;
+    border: 10px solid gold;
+    border-radius: 50%;
+}
+
+.right .logo{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.left .signIN{
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.submit{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}
+
+form {
+    border: 5px solid gold;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.first,.second label{
+    padding-left: 15px;
+}
+
+form{
+    width: 400px;
+}

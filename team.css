@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url(./pexels-unknown6user-1657324.jpg);
+    background-size: cover;
+    object-fit: fill; 
+     background-position:center ;
+  }
+
+  .Total .guess{
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 5px solid gold;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+.Total{
+    display: flex;
+    margin-left: 10px ;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+}
+
+  .num{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+
+  .Total div{
+    padding-right: 15px;
+  }
+
+
+.submit  {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px solid gold;
+    color: white;
+}
+
+
+.collect{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+.collect input{
+  width: 200px;
+  height: 50px;
+  padding-left: 10px !important;
+}
+
+.deliver{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: white !important;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.dice{
+  margin: 100px;
+  border: 5px solid gold  !important;
+  border-radius: 50%;
+  display: none;
+}
+
+.btn--ROLL {
+ /* float: right; */
+  border: 5px solid gold !important;
+  border-radius: 50% !important;
+  padding: 20px !important;
+  color: white !important;
+  font-weight: bold !important;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  margin-top: 300px;
+ 
+}
+
+.header{
+  margin-bottom: 300px;
+  margin-top: 20px;
+  color: gold;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+
+.myDetails{
+  border: 5px solid gold !important;
+  border-radius: 10px  !important;
+
+  
+}
